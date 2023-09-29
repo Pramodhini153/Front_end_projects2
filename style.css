@@ -1,0 +1,303 @@
+.main{
+    background: linear-gradient(to top,rgba(155, 5, 135, 0.7),rgba(155, 5, 135, 0.2)),url("./images/saloon1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+body{
+    overflow-x: hidden;
+}
+.title{
+    padding-top: 40px;
+    font-size: 80px;
+    color: white;
+    font-family:cursive;
+    text-align: center;
+}
+.one button,.two button{
+    padding: 10px;
+    background: transparent;
+    color: white;
+    border: 2px solid white;
+    position: relative;
+    z-index: 1;
+}
+.one button{
+    padding-right: 20px;
+}
+.one button span,.two button span{
+    width: 0%;
+    height: 100%;
+    position: absolute;
+    top:0;
+    left: 0;
+    background: white;
+    z-index: -1;
+    transition: 0.5s;
+}
+.one button:hover span,.two button:hover span{
+    width: 100%;
+    
+}
+.one button:hover ,.two button:hover{
+    color: rgba(155, 5, 135, 0.7);
+}
+/* .one button:hover,.two button:hover{
+    background: white;
+    color:rgba(155, 5, 135, 0.7);
+} */
+.img{
+    position: absolute;
+    left:515px;
+    top: 111%;
+}
+.features{
+    color:rgba(155, 5, 135, 0.7);
+    text-align: center;
+    padding-top: 60px;
+}
+
+.buttons{
+    display: flex;gap: 20px;
+    padding-left: 550px;
+    padding-top: 40px;
+}
+
+.image1{
+    background: url(./images/saloonfe4.jpg);
+    border-radius: 10px;
+    height: 400px;
+    width:400px;
+    background-size: cover;
+    background-repeat: no-repeat;
+   
+    box-shadow: -4px -4px 10px rgba(155, 5, 135, 0.7),5px 5px 10px rgba(155, 5, 135, 0.5);
+}
+.image1:hover{
+    background: linear-gradient(to top,rgba(155, 5, 135, 0.7),rgba(155, 5, 135, 0.2)),url(./images/saloonfe4.jpg);
+    height: 400px;
+    width:400px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.div1,.div2{
+    padding: 50px;
+
+}
+.div1{
+    padding: 80px;
+    padding-left: 110px;
+}
+.div2:hover{
+}
+.img1{
+    position: absolute;
+    left:515px;
+    top: 227%;
+}
+.features{
+    color:rgba(155, 5, 135, 0.7);
+    text-align: center;
+    padding-top: 60px;
+}
+.services{
+    color:rgba(155, 5, 135, 0.7);
+    text-align: center;
+    padding-top: 40px;
+}
+.testimonal{
+    color:rgba(155, 5, 135, 0.7);
+    text-align: center;
+    padding-top: 100px;
+    margin-left: 25px;
+}
+.contact{
+    color:rgba(155, 5, 135, 0.7);
+    text-align: center;
+    padding-top: 40px;
+    /* margin-left: 10px; */
+}
+.img2{
+    position: absolute;
+    left:515px;
+    top: 373%;
+}
+.img3{
+    position: absolute;
+    left:515px;
+    top: 486%;
+}
+.one2{
+    display: flex;
+    gap: 15px;
+}
+
+.five2{
+    background:url(./images/saloonfe5.jpg);
+    width:400px;
+    height:300px;
+    box-shadow: -2px -2px 5px rgba(155, 5, 135, 0.7),2px 2px 5px rgba(155, 5, 135, 0.5);
+    border-radius: 5px;
+    margin-top: 10px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.two2{
+    background: url(./images/saloonfe1.jpg);
+    width:400px;
+    height:300px;
+    box-shadow: -2px -2px 5px rgba(155, 5, 135, 0.7),2px 2px 5px rgba(155, 5, 135, 0.5);
+    border-radius: 5px;
+    margin-left: 220px;
+    margin-top: 40px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.three2{
+    background:url(./images/saloonfe3.jpg);
+    width:400px;
+    height:300px;
+    box-shadow: -2px -2px 5px rgba(155, 5, 135, 0.7),2px 2px 5px rgba(155, 5, 135, 0.5);
+    border-radius: 5px;
+    margin-top: 40px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.four2{
+    background:url(./images/saloonpr1.jpg);
+    width:400px;
+    height:300px;
+    box-shadow: -2px -2px 5px rgba(155, 5, 135, 0.7),2px 2px 5px rgba(155, 5, 135, 0.5);
+    border-radius: 5px;
+    margin-left: 220px;
+    margin-top: 10px;
+    background-size:cover;
+    background-repeat: no-repeat;
+}
+.two2:hover{
+    background: linear-gradient(to top,rgba(155, 5, 135, 0.7),rgba(155, 5, 135, 0.2)),url(./images/saloonfe1.jpg);
+    background-size:cover;
+    background-repeat: no-repeat;
+}
+.three2:hover{
+    background: linear-gradient(to top,rgba(155, 5, 135, 0.7),rgba(155, 5, 135, 0.2)),url(./images/saloonfe3.jpg);
+    background-size:cover;
+    background-repeat: no-repeat;
+}
+.four2:hover{
+    background: linear-gradient(to top,rgba(155, 5, 135, 0.7),rgba(155, 5, 135, 0.2)),url(./images/saloonpr1.jpg);
+    background-size:cover;
+    background-repeat: no-repeat;
+}
+.five2:hover{
+    background: linear-gradient(to top,rgba(155, 5, 135, 0.7),rgba(155, 5, 135, 0.2)),url(./images/saloonfe5.jpg);
+    background-size:cover;
+    background-repeat: no-repeat;
+}
+.two3{
+    display: flex;
+    gap:20px;
+}
+.pr1{
+    padding-top: 5px;
+}
+.five3{
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: -2px -2px 5px rgba(155, 5, 135, 0.7),2px 2px 5px rgba(155, 5, 135, 0.5);
+    margin-top: 40px;
+    margin-left: 250px;
+}
+.six3{
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: -2px -2px 5px rgba(155, 5, 135, 0.7),2px 2px 5px rgba(155, 5, 135, 0.5);
+    margin-top: 40px;
+}
+.seven3{
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: -2px -2px 5px rgba(155, 5, 135, 0.7),2px 2px 5px rgba(155, 5, 135, 0.5);
+    margin-top: 40px;
+    margin-left: 440px;
+    margin-right: 400px;
+}
+.one3{
+    display: flex;
+    gap:50px;
+}
+.ftrimg{
+    
+    opacity: 0.3;
+    position: absolute;
+    left: 550px;
+    top:510%;
+}
+.div3{
+    padding-left: 180px;
+    font-size: 20px;
+    
+}
+.div4{
+    padding-left: 450px;
+    /* margin-bottom: 20px; */
+    font-size: 16px;
+}
+.clok{
+    display: flex;
+   
+}
+.clok1{
+    padding-top: 21px;
+    padding-right: 5px;
+}
+.footer{
+    background: rgba(117, 117, 116, 0.11);
+    padding-bottom: 5px;
+}
+#sidenav{
+    width: 250px;
+    height: 100vh;
+    position: fixed;
+    right: -250px;
+    top: 0;
+    background: rgba(155, 5, 135, 1) ;
+    z-index: 2;
+    transition: 0.5s;
+}
+nav ul li{
+    
+    list-style: none;
+    margin: 40px 20px;
+}
+.home{
+    padding-top: 60px;
+}
+nav ul li a{
+   text-decoration: none;
+   /* padding: 20px; */
+   color: white;
+    
+}
+#menubtn{
+    width: 50px;
+    height: 50px;
+    background:rgba(155, 5, 135, 1) ;
+    text-align: center;
+    position: absolute;
+    right: 30px;
+    top: 20px;
+    border-radius: 3px;
+    z-index: 3;
+    cursor: pointer;
+}
+#menubtn img{
+    width: 20px;
+    margin-top:15px ;
+}
+i{
+    height: 30px;
+    width: 30px;
+    font-size: 40px;
+    color: rgb(222, 58, 183);
+}
